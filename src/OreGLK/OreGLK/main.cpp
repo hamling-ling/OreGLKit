@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include "modeltool.h"
 
 int main(int argc, const char * argv[])
 {

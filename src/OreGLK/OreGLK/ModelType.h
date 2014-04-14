@@ -9,8 +9,8 @@ namespace osakanaengine {
 
 	typedef struct MODELPOINT
 	{
-		MODELFLOAT x;
-		MODELFLOAT y;
+		struct { MODELFLOAT x, y; };
+		MODELFLOAT v[2];
 	} ModelPoint;
 
     typedef struct LINEPARAM {
